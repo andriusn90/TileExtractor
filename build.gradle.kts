@@ -16,6 +16,8 @@ dependencies {
     implementation("com.google.code.gson:gson:2.10.1")
     implementation(kotlin("stdlib"))
     implementation("org.xerial:sqlite-jdbc:3.43.0.0")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.16.1")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.16.1")
 }
 
 javafx {
@@ -34,5 +36,5 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
 }
 
 application {
-    mainClass.set("MainKt")
+    mainClass.set("Test3Kt")
 }
